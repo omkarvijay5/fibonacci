@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.shortcuts import render
 
-# Create your views here.
+# django imports
+from django.shortcuts import render
+from django.http import HttpResponse
+
+
+def nth_number(request):
+	 return HttpResponse("Fibonaccii series")
